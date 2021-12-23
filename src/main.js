@@ -11,7 +11,7 @@ function calculateMonies(currency,response) {
     const result = (currencyValue) * (monies);
     $('.result').text(`That amount of US dollars equals ${result} in ${currency}`);
   } else {
-    $('.result').text(`${currency} Not found`)
+    $('.result').text(`${currency} Not found`);
   }
 }
 
@@ -30,7 +30,7 @@ async function makeApiCall(currency) {
 
 $(document).ready(function() {
   $('#request').click(function() {
-    const currency = document.querySelector('input[name="currency"]:checked').value;
+    const currency = $('#currency').val();
     makeApiCall(currency);
   });
 });
