@@ -15,14 +15,10 @@ function calculateMonies(currency,response) {
   }
 }
 
-function printResponse(response,currency) {
-  calculateMonies(currency,response);
-}
-
 async function makeApiCall(currency) {
   const response = await APIService.getMonies();
   if (response.conversion_rates) {
-    printResponse(response,currency);
+    calculateMonies(currency,response);
   } else {
     $('.result').text(`Error ${response}`);
   }
