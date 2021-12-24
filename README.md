@@ -17,7 +17,7 @@
 ## Setup/Installation Requirements
 
 * _Clone this repo_
-* _Add a .emv file Within API key_
+* _Add a .emv file With API_key Variable_
 * _From here https://www.exchangerate-api.com/_
 * _Enter npm install_
 * _Enter npm run start_
