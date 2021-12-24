@@ -1,31 +1,34 @@
-# (Application Name)
+# Exchange_API
 
-#### (Brief Description of Application)
+#### A simple application to work with an API
 
-#### By (Your Name Here)
+#### By Kiernan Beattie
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* API
+* HTML
+* JavaScript
 
 ## Description
 
+* A fairly simple and straightforward way to convert US dollars to other currencies
+
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _Clone this repo_
+* _Add a .emv file Within API key_
+* _From here https://www.exchangerate-api.com/_
+* _Enter npm install_
+* _Enter npm run start_
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _N/a_
 
 ## License
 
+MIT
+
 ## Contact Information
+Kiernan1994@gmail.com
