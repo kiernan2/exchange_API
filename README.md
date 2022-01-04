@@ -17,8 +17,8 @@
 ## Setup/Installation Requirements
 
 * _Clone this repo_
-* _Add a .env file to the parent directory With API_KEY Variable_
-* _From here https://www.exchangerate-api.com/_
+* _Add a .env file to the parent directory With 'API_KEY' variable_
+* _Store API key from https://www.exchangerate-api.com/ in 'API_KEY' variable_
 * _Enter npm install_
 * _Enter npm run start_
 
